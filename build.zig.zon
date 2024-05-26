@@ -9,6 +9,11 @@
         "README.md",
     },
     .dependencies = .{
-        .system_sdk = .{ .path = "../system-sdk" },
+        .system_sdk = .{
+            .url = "https://github.com/7R35C0/system-sdk/releases/download/system-sdk-0.1.1/system-sdk-0.1.1.tar.gz",
+            .hash = "1220bd21394b50683441ebc101d7d7ac9178d93693b37a34a9124c0024b8d068f8a1",
+            //    .path = "foo",
+            //    .lazy = false,
+        },
     },
 }
