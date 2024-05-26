@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
+#& VisualStudioCode
+.vscode/*
+!.vscode/*.code-snippets
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+# Local History for Visual Studio Code
+.history/
+# Built Visual Studio Code Extensions
+*.vsix
+# VisualStudioCode Patch, ignore all local history of files
+.history
+.ionide
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#& Zig programming language
+zig-cache/
+zig-out/
+build/
+build-*/
+docgen_tmp/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+#& Project specific
+archives/

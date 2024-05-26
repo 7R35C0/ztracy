@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "michaelcurrin.auto-commit-msg",
+        "beardedbear.beardedicons",
+        "aaron-bond.better-comments",
+        "usernamehw.errorlens",
+        "donjayamanne.githistory",
+        "codezombiech.gitignore",
+        "ritwickdey.liveserver",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+        "davidanson.vscode-markdownlint",
+        "thinker.sort-json",
+        "yasht.terminal-all-in-one",
+        "ms-vscode.theme-tomorrowkit",
+        "ziglang.vscode-zig"
+    ],
+    "unwantedRecommendations": []
+}
